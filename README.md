@@ -9,7 +9,7 @@ Then I tried LazyVim. Too much abstraction. Felt like using someone else's edito
 So I built my own config. Treesitter, LSP, gruber-darker (the Emacs one), a bunch of plugins I thought I needed.<br>
 One day I turned off syntax highlighting. Just to see.<br>
 I started reading code differently. Without colors pulling my eyes everywhere, I had to actually focus. Read line by line. Re-read. Think before typing. The screen looked like a book — and I like books.<br>
-Kept removing things. Less plugins, less config, less noise. Ended up here: 45 lines, one plugin for fuzzy finding, pure black background.<br>
+Kept removing things. Less plugins, less config, less noise. Ended up here: ~70 lines, one plugin for fuzzy finding, pure black background.<br>
 
 Not for everyone. But if you like reading, if you like focus, maybe try it.
 
@@ -21,10 +21,10 @@ git clone https://github.com/junegunn/fzf
 git clone https://github.com/junegunn/fzf.vim
 
 mkdir -p ~/.config/nvim
-curl -o ~/.config/nvim/init.lua <your-raw-url>
+curl -o ~/.config/nvim/init.lua https://raw.githubusercontent.com/egosolus/nvimm/refs/heads/master/init.lua
 ```
 
-Or just copy `init.lua`. It's 45 lines.
+Or just copy `init.lua`. It's ~70 lines.
 
 ## Keybinds
 
