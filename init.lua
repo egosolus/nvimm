@@ -15,6 +15,7 @@ vim.opt.termguicolors = true
 vim.opt.pumheight = 10		-- popup menu height
 -- Colorscheme hehe
 vim.cmd [[
+	syntax off
 	colorscheme default
 	hi Normal guibg=#000000 ctermbg=0
 ]]
